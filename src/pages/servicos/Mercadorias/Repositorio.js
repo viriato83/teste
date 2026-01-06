@@ -4,7 +4,7 @@ export default class  repositorioMercadoria{
 
 
     constructor(){
-        this.endpoint ="  https://api1.mozsystems.com/tenant2/mercadoria"
+        this.endpoint ="  https://api1.mozsystems.com/tenant4/mercadoria"
         this.mensagem= new mensagem ();
         this.token=sessionStorage.getItem("token");
       

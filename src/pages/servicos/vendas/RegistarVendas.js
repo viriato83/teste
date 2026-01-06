@@ -221,11 +221,11 @@ export default function RegistarVenda() {
               </head>
               <body>
                 <div class="container">
-                  <img src="${logoBase64}" alt="Logo"/>
+                  <img src="" alt="Logo"/>
                   <h3>LifeMar</h3>
-                  <p>Bairro Nove, Distrito de Zavala</p>
-                  <p>+258 82 244 6503</p>
-                  <p>NUIT: 401232125</p>
+                  <p>Bairro Nxxxx</p>
+                  <p>+258 82 244 xxxx</p>
+                  <p>NUIT: 40123xxx</p>
                   <div class="linha"></div>
                   <h4><strong>VENDA A DINHEIRO</strong></h4>
                   <p><strong>Fatura Nº:</strong> VD${numeroFatura}</p>

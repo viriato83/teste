@@ -20,8 +20,8 @@ export default function Header({ children, mercadorias = [], vendas = [] }) {
       <>
         <header className="header-container">
           <div className="header-left">
-            <img src={logo} alt="Logo" className="logo" />
-            <h1 className="system-title">LifeMar</h1>
+            <img src={""} alt="Logo" className="logo" />
+            <h1 className="system-title">Empresa X</h1>
           </div>
   
        

@@ -54,7 +54,7 @@ export default function Login({ children }) {
   return (
     <section className="login-section">
         <div className="login-logo">
-            <img src={logo} alt="Logo Aquafish" />
+            <img src="" alt="Logo da empresa" />
             
            
   

@@ -237,10 +237,10 @@ console.log(modelo)
 
     doc.addImage(logo, "PNG", startX, startY, 20, 10);
     doc.setFontSize(9);
-    const empresaInfo = `LifeMAr
-Bairro Nove, Distrito de Zavala
-+258 84 2446503
-NUIT: 401232125`;
+    const empresaInfo = `EMPRESA
+Bairro Nove, Distrito de 
++258 84 2446XXX
+NUIT: 40123XXX`;
     empresaInfo.split("\n").forEach((linhaTexto, j) => {
       doc.text(linhaTexto, startX + 25, startY + 4 + j * 4);
     });
@@ -323,11 +323,11 @@ async function imprimirFatura(id, cliente, data, mercadoria, quantidade, status_
       </head>
       <body>
         <div class="container">
-          <img src="${logoBase64}" alt="LifeMar Logo" />
-          <h3><strong>LifeMar</strong></h3>
-          <p>Bairro Nove, Distrito de Zavala</p>
-          <p>+258 82 244 6503</p>
-          <p>NUIT: 401 232 125</p>
+          <img src="" alt=" Logo" />
+          <h3><strong>Empresa XXX</strong></h3>
+          <p>Bairro  XXXX</p>
+          <p>+258 82 244XXX</p>
+          <p>NUIT: 401 23XXX</p>
           <div class="linha"></div>
           <h4><strong>VENDA A DINHEIRO</strong></h4>
           <p><strong>Fatura Nº:</strong> VD${numeroFatura}</p>
